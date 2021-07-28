@@ -1,0 +1,107 @@
+.frame{
+    margin: 0 auto;    
+    width: 380px;
+    height: 500px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formStyle{
+    font-family: Roboto;
+}
+ h2{
+     font-size: 16px;
+     font-weight: 400;
+     margin: 15px;
+     padding: 10px;
+     color:rgb(74,144,226)
+ }
+
+ h3{
+    font-size: 12px;
+    font-weight: 400;
+ }
+
+ .progressbar{
+     display: flex;
+     justify-content: left;
+     height: 8px;
+     border-top: 1px solid lightgray;
+     border-bottom: 1px solid lightgray;
+ }
+
+ .pbar_item{
+     background-color: rgb(74,144,226);
+     height: 100%;
+     width: 33.33333%;
+ }
+
+ .navButtons{
+     border-top: 1px solid lightgray;
+     height: 60px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .navButtons button{
+     margin: 5px;
+     background-color: white;
+     border: none;
+     cursor: pointer;
+ }
+
+ .formBody{
+     flex-grow: 1;
+     padding-top: 10px;
+ }
+
+ .block{
+     display: flex;     
+     justify-content: center;
+     align-items: center;     
+ }
+
+ .block div{
+     width: 88%;
+     display: flex;
+     justify-content: center;
+     height: 35px;
+ }
+
+ .block div button {
+     width: 100%;
+     border: 1px solid lightgray;
+     background-color: white;
+ }
+
+ select {
+    width: 88%;
+    height: 40px;
+    border: 1px solid rgb(187, 187, 187);
+ }
+
+ select:focus {
+     outline: none;
+ }
+
+ .check{
+     margin: 60px auto 20px auto;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     background-color: rgb(184,233,134);
+     color: white;
+     font-size: 100px;
+ }
+
+ .submit{
+     background-color: white;
+     padding: 15px;
+     border-radius: 7px;
+     border: 1px solid rgb(74,144,226);
+     color: rgb(74,144,226);
+     cursor: pointer;
+ }

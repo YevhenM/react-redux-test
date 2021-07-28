@@ -1,0 +1,70 @@
+.formControl{
+    display: flex;
+    justify-content: center;
+   }
+   
+   .formControl div{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 88%;
+       margin: 7px;
+   }
+
+   .formControl input{
+       border: none;
+       height: 30px;
+       border-bottom: 1px solid gray;
+   }
+
+   .formControl input:focus{
+       border: none;
+       border-bottom: 1px solid gray;
+       outline: none;            
+   }
+   
+   .formControl.error input {
+       border: none;
+       border-bottom: solid red 1px;
+   }
+      
+   .formControl.error span {
+       color: red;
+   }
+   
+   .formSummaryError{
+       border: red 1px solid;
+       padding: 5px;
+       color: red;
+   }
+
+   .description{
+       text-align: left;
+       font-size: 12px;
+   }
+
+   .inpD{       
+       display: flex;
+       
+   }
+
+   .inpD div{
+       width: 100%;
+   }
+
+   .inpD input{
+       width: 100%;
+       border: 1px solid lightgray;
+       text-align: center;
+   }
+
+   .inpD input:focus{
+    outline: none;   
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+   .inpD input::placeholder {
+        width: 100%;
+       text-align: center;
+   }
