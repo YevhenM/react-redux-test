@@ -6,7 +6,7 @@ import { Field, reduxForm } from 'redux-form';
 
 export const Input = ({input, meta, ...props}) => {    
 
-    let hasError = (meta.touched && meta.error && meta.active)
+    let hasError = (meta.touched && meta.error)
     let textError = meta.error
     return (
         <div className={s.formControl + " " + ( hasError? s.error: "")}>
