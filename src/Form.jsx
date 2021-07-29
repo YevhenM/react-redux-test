@@ -92,7 +92,7 @@ return <div className={s.formStyle}>
                     <option value="friends">Friends</option>
                     <option value="advertising" >Advertising</option>
                     <option value="social medis">Social media</option>
-                    <option value="other" label="Лариса">other...</option>
+                    <option value="other">other...</option>
                 </select>     
                 </div>                
                 </div>
